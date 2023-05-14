@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rossinaflix</title>
+    <link rel="stylesheet" href="Style.css" />
+    <script src="https://kit.fontawesome.com/06a651c8da.js"></script>
+  </head>
+
+  <body>
+    <!--<h1>Benvenuto su Rossinaflix</h1>-->
+    <!--<p>un sito per veri centauri</p>-->
+    <!--<a href="https://www.instagram.com/rossana_.rg/">Insta Rossina</a>-->
+    <div id="topper">
+      <img id="logo" src="Logo.png" alt="logo sito" />
+
+      <ul id="navbar">
+        <li><a href="#"></a>Home</li>
+        <li><a href="#"></a>Rossanate</li>
+        <li><a href="#"></a>Galleria</li>
+      </ul>
+
+      <img
+        id="cerca"
+        src="gray-search-icon-button-transparent-png-116400840187sqz1ieh5f.png"
+        alt="cerca"
+      />
+    </div>
+    <div id="preview-container">
+      <video id="homevideo" loop autoplay muted src="videonave1.mp4"></video>
+      <div id="preview-overlay"></div>
+      <div id="preview-details">
+        <h3 id preview-title>Rossina all'attacco</h3>
+        <button><i class="fas fa-play"></i>Riproduci</button>
+        <button><i class="fas fa-volume-mute"></i></button>
+      </div>
+    </div>
+    <div id="categories">
+      
+      <div id="category">
+        <h3 class="primotitolo">Azione e avventura</h3>
+        <img class="anteprime" src="Thumbnails/agropoli.jpg" />
+        <img class="anteprime" src="Thumbnails/lettomanoppello.jpg" />
+        <img class="anteprime" src="Thumbnails/lettomanoppello2.jpg" />
+        <img class="anteprime" src="Thumbnails/nave.jpg" />
+      </div>
+    </div>
+
+   <!-- <script>
+      const color = "green";
+      const previewTitle = document.querySelector("#preview-details h3");
+    
+      document.addEventListener("DOMContentLoaded", function () {
+        console.log(previewTitle);
+        previewTitle.addEventListener("click", changeColor);
+      });
+    
+      function changeColor() {
+        const style = window.getComputedStyle(previewTitle);
+        const currentColor = style.getPropertyValue("color");
+        if (currentColor === color) {
+          previewTitle.style.color = "white";
+        } else {
+          previewTitle.style.color = color;
+        }
+        
+      }
+    </script>-->
+    
+    
+  </body>
+</html>
